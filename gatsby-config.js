@@ -1,5 +1,17 @@
 module.exports = {
-  plugins: ['@elegantstack/gatsby-theme-flexiblog-news'],
+  plugins: [
+    {
+      resolve: '@elegantstack/gatsby-theme-flexiblog-news',
+      options: {
+        sources: {
+          local: true,
+        },
+      }
+    },
+    {
+    resolve: "gatsby-plugin-netlify-cms",
+    options: {},
+  }],
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata

@@ -13,4 +13,7 @@ module.exports = [{
     },{
       plugin: require('../../node_modules/gatsby-plugin-layout/gatsby-browser.js'),
       options: {"plugins":[],"component":"/Users/sanish/Downloads/themeforest/@elegantstack/packages/flow-ui/layout/src/Layout/Layout.jsx"},
+    },{
+      plugin: require('../../node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js'),
+      options: {"plugins":[]},
     }]
